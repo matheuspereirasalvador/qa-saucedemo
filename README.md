@@ -7,6 +7,7 @@
 1. Inserir usuário: `standard_user`
 2. Inserir senha: `secret_sauce`
 3. Clicar no botão Login.
+
 **Resultado Esperado:** Redirecionamento para a página de produtos (/inventory.html).
 
 ## CT02 - Tentativa de Login com Usuário Bloqueado
@@ -16,6 +17,7 @@
 1. Inserir usuário: `locked_out_user`
 2. Inserir senha: `secret_sauce`
 3. Clicar no botão Login.
+   
 **Resultado Esperado:** Exibir mensagem de erro: "Epic sadface: Sorry, this user has been locked out."
 
 ## CT03 - Tentativa de Login com Credenciais Inválidas
@@ -25,4 +27,5 @@
 1. Inserir usuário: `standard_user`
 2. Inserir senha: `senha_errada_123`
 3. Clicar no botão Login.
+
 **Resultado Esperado:** Exibir mensagem de erro: "Epic sadface: Username and password do not match any user in this service"
