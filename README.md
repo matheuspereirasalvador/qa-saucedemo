@@ -1,8 +1,8 @@
 # Suite de Testes: Login SauceDemo
 
 ## CT01 - Login com Usuário Padrão (Caminho Feliz)
-**Objetivo:** Verificar se um usuário ativo consegue acessar a loja.
-**Técnica:** Particionamento de Equivalência (Classe Válida).
+**Objetivo:** Verificar se um usuário ativo consegue acessar a loja.\n
+**Técnica:** Particionamento de Equivalência (Classe Válida).\n
 **Passos:**
 1. Inserir usuário: `standard_user`
 2. Inserir senha: `secret_sauce`
