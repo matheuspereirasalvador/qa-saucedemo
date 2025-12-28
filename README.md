@@ -23,6 +23,7 @@ O projeto segue o padrão **Page Object Model** para garantir manutenibilidade e
 * `tests/`: Arquivos de teste focados na regra de negócio e validações.
 * `conftest.py`: Configurações globais (Fixtures) e setup do WebDriver.
 * `.github/workflows/`: Configuração do Pipeline de CI/CD.
+* `documentation/`: Cenários de teste
 
 ## ⚙️ Cenários Cobertos
 
