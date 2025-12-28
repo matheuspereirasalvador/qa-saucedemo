@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-# IMPORTS NOVOS PARA O WAIT EXPLICITO
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -16,7 +15,7 @@ class InventoryPage:
     def adicionar_mochila(self):
         self.driver.find_element(*self.backpack_add_button).click()
 
-    def adicionar_bike_light(self):
+    def adicionar_luz_bicicleta(self):
         self.driver.find_element(*self.bike_light_add_button).click()
 
     def obter_quantidade_carrinho(self):
