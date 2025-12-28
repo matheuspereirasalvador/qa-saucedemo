@@ -37,7 +37,7 @@ O projeto segue o padrão **Page Object Model** para garantir manutenibilidade e
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/matheuspereirasalvador/qa-saucedemo.git](https://github.com/matheuspereirasalvador/qa-saucedemo.git)
+    git clone https://github.com/matheuspereirasalvador/qa-saucedemo.git
     cd qa-saucedemo
     ```
 
